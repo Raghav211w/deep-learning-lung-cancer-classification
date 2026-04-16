@@ -26,7 +26,7 @@ The system explores and compares multiple deep learning architectures ranging fr
 
 Download the trained model weights here:
 
-**Fine-Tuned EfficientNetB7 (.keras):**
+**Fine-Tuned EfficientNetB0 (.keras):**
 https://www.kaggle.com/datasets/raghavgupta211/lung-cancer-classification-model-weights
 
 ---
@@ -72,9 +72,9 @@ Baseline convolutional neural network developed from scratch for benchmark compa
 
 Transfer learning model using pretrained EfficientNetB0 as frozen feature extractor.
 
-### 3. Fine-Tuned EfficientNetB7
+### 3. Fine-Tuned EfficientNetB0
 
-Transfer learning model with partially unfrozen EfficientNetB7 backbone for domain-specific fine-tuning.
+Transfer learning model with partially unfrozen EfficientNetB0 backbone for domain-specific fine-tuning.
 
 ---
 
@@ -96,13 +96,13 @@ Transfer learning model with partially unfrozen EfficientNetB7 backbone for doma
 | ------------------------- | ---------- | ---------- | ---------- | ---------- |
 | Custom CNN                | 97.73%     | 97.81%     | 97.73%     | 97.68%     |
 | EfficientNetB0            | 93.18%     | 92.92%     | 93.18%     | 92.99%     |
-| Fine-Tuned EfficientNetB7 | **98.18%** | **98.18%** | **98.18%** | **98.18%** |
+| Fine-Tuned EfficientNetB0 | **98.18%** | **98.18%** | **98.18%** | **98.18%** |
 
 ---
 
 ## Performance Analysis
 
-* **Fine-Tuned EfficientNetB7** achieved the best overall performance across all evaluation metrics.
+* **Fine-Tuned EfficientNetB0** achieved the best overall performance across all evaluation metrics.
 * **Custom CNN** delivered highly competitive performance despite significantly lower complexity.
 * Fine-tuning substantially improved performance over frozen transfer learning.
 
