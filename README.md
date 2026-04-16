@@ -22,6 +22,15 @@ The system explores and compares multiple deep learning architectures ranging fr
 
 ---
 
+## Pretrained Model Weights
+
+Download the trained model weights here:
+
+**Fine-Tuned EfficientNetB7 (.keras):**
+https://www.kaggle.com/datasets/raghavgupta211/lung-cancer-classification-model-weights
+
+---
+
 ## Project Objectives
 
 * Build an automated lung CT scan classification pipeline
