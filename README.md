@@ -150,5 +150,3 @@ This project is intended for **research and educational purposes only** and is *
 ## Author
 
 **Raghav Gupta**
-B.Tech Engineering Student
-Robotics | AI/ML | Embedded Systems
